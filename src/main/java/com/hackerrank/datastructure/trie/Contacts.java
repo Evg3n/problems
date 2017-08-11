@@ -1,5 +1,6 @@
 package com.hackerrank.datastructure.trie;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -9,8 +10,13 @@ import java.util.Scanner;
  * https://www.hackerrank.com/challenges/contacts
  */
 public class Contacts {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+    private static final String ADD_OPERATION = "add";
+    private static final String FIND_OPERATION = "find";
+
+    private static final char ZERO_CHAR = '\0';
+
+    public static void main(String[] args) throws IOException {
+        Scanner in = new Scanner(Contacts.class.getClassLoader().getResourceAsStream("trie/contacts_1.txt"));
         int n = in.nextInt();
 
         Trie trie = new Trie();
@@ -19,10 +25,10 @@ public class Contacts {
             String contact = in.next();
 
             switch (op) {
-                case "add":
+                case ADD_OPERATION:
                     trie.add(contact);
                     break;
-                case "find":
+                case FIND_OPERATION:
                     System.out.println(trie.find(contact));
                     break;
             }
@@ -73,7 +79,7 @@ public class Contacts {
                 currentNode = children.get(c);
             }
             currentNode.incrementEndingsCount();
-            currentNode.getChildren().put('\0', new Node('\0'));
+            currentNode.getChildren().put(ZERO_CHAR, new Node(ZERO_CHAR));
         }
 
         private class Node {
