@@ -11,7 +11,8 @@ import java.util.Scanner;
  */
 public class SwapNodes {
     public static void main(String[] args) {
-        Scanner in = new Scanner(Contacts.class.getClassLoader().getResourceAsStream("tree/swap_nodes_1.txt"));
+        Scanner in = new Scanner(Contacts.class.getClassLoader().getResourceAsStream(
+                "datastructure/tree/swap_nodes.txt"));
         int nodesCount = in.nextInt();
 
         Node root = new Node(1, 1);

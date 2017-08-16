@@ -16,7 +16,8 @@ public class Contacts {
     private static final char ZERO_CHAR = '\0';
 
     public static void main(String[] args) throws IOException {
-        Scanner in = new Scanner(Contacts.class.getClassLoader().getResourceAsStream("trie/contacts_1.txt"));
+        Scanner in = new Scanner(Contacts.class.getClassLoader().getResourceAsStream(
+                "datastructure/trie/contacts.txt"));
         int n = in.nextInt();
 
         Trie trie = new Trie();
