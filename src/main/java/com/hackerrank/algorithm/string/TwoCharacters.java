@@ -1,7 +1,5 @@
 package com.hackerrank.algorithm.string;
 
-import com.hackerrank.datastructure.trie.Contacts;
-
 import java.util.*;
 
 /**
@@ -9,8 +7,9 @@ import java.util.*;
  */
 public class TwoCharacters {
     public static void main(String[] args) {
-        Scanner in = new Scanner(Contacts.class.getClassLoader().getResourceAsStream(
+        Scanner in = new Scanner(TwoCharacters.class.getClassLoader().getResourceAsStream(
                 "algorithm/string/two_characters.txt"));
+
         int length = in.nextInt();
         in.nextLine();
         System.out.println(getLongestValidString(in.nextLine()).length());

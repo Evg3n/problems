@@ -1,7 +1,5 @@
 package com.hackerrank.algorithm.implementation;
 
-import com.hackerrank.datastructure.trie.Contacts;
-
 import java.util.Scanner;
 
 /**
@@ -9,7 +7,7 @@ import java.util.Scanner;
  */
 public class GradingStudents {
     public static void main(String[] args) {
-        Scanner in = new Scanner(Contacts.class.getClassLoader().getResourceAsStream(
+        Scanner in = new Scanner(GradingStudents.class.getClassLoader().getResourceAsStream(
                 "algorithm/implementation/grading_students.txt"));
         int gradesCount = in.nextInt();
 

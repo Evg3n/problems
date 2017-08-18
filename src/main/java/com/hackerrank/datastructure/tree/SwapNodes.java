@@ -1,7 +1,5 @@
 package com.hackerrank.datastructure.tree;
 
-import com.hackerrank.datastructure.trie.Contacts;
-
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -11,7 +9,7 @@ import java.util.Scanner;
  */
 public class SwapNodes {
     public static void main(String[] args) {
-        Scanner in = new Scanner(Contacts.class.getClassLoader().getResourceAsStream(
+        Scanner in = new Scanner(SwapNodes.class.getClassLoader().getResourceAsStream(
                 "datastructure/tree/swap_nodes.txt"));
         int nodesCount = in.nextInt();
 

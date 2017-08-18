@@ -1,7 +1,5 @@
 package com.hackerrank.algorithm.string;
 
-import com.hackerrank.datastructure.trie.Contacts;
-
 import java.util.Scanner;
 
 /**
@@ -9,7 +7,7 @@ import java.util.Scanner;
  */
 public class MarsExploration {
     public static void main(String[] args) {
-        Scanner in = new Scanner(Contacts.class.getClassLoader().getResourceAsStream(
+        Scanner in = new Scanner(MarsExploration.class.getClassLoader().getResourceAsStream(
                 "algorithm/string/mars_exploration.txt"));
 
         String source = in.next();

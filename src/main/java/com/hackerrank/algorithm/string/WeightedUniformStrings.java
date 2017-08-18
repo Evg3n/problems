@@ -1,7 +1,5 @@
 package com.hackerrank.algorithm.string;
 
-import com.hackerrank.datastructure.trie.Contacts;
-
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -11,7 +9,7 @@ import java.util.Set;
  */
 public class WeightedUniformStrings {
     public static void main(String[] args) {
-        Scanner in = new Scanner(Contacts.class.getClassLoader().getResourceAsStream(
+        Scanner in = new Scanner(WeightedUniformStrings.class.getClassLoader().getResourceAsStream(
                 "algorithm/string/weighted_uniform_strings.txt"));
 
         String source = in.nextLine();
