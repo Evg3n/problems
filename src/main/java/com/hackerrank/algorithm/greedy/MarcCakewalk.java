@@ -1,7 +1,5 @@
 package com.hackerrank.algorithm.greedy;
 
-import com.hackerrank.algorithm.search.SherlockAndArray;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -10,7 +8,7 @@ import java.util.Scanner;
  */
 public class MarcCakewalk {
     public static void main(String[] args) {
-        Scanner in = new Scanner(SherlockAndArray.class.getClassLoader().getResourceAsStream(
+        Scanner in = new Scanner(MarcCakewalk.class.getClassLoader().getResourceAsStream(
                 "algorithm/greedy/marc_cakewalk.txt"));
         int n = in.nextInt();
         int[] calories = new int[n];

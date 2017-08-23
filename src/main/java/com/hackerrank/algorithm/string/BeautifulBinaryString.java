@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
  */
 public class BeautifulBinaryString {
     public static void main(String[] args) {
-        Scanner in = new Scanner(Pangrams.class.getClassLoader().getResourceAsStream(
+        Scanner in = new Scanner(BeautifulBinaryString.class.getClassLoader().getResourceAsStream(
                 "algorithm/string/beautiful_binary_string.txt"));
         int n = in.nextInt();
         String source = in.next();

@@ -1,7 +1,5 @@
 package com.hackerrank.algorithm.bitmanipulation;
 
-import com.hackerrank.algorithm.search.SherlockAndArray;
-
 import java.util.Scanner;
 
 /**
@@ -9,7 +7,7 @@ import java.util.Scanner;
  */
 public class LonelyInteger {
     public static void main(String[] args) {
-        Scanner in = new Scanner(SherlockAndArray.class.getClassLoader().getResourceAsStream(
+        Scanner in = new Scanner(LonelyInteger.class.getClassLoader().getResourceAsStream(
                 "algorithm/bitmanipulation/lonely_integer.txt"));
 
         int n = in.nextInt();

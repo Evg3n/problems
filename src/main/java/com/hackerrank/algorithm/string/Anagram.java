@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class Anagram {
     public static void main(String[] args) {
-        Scanner in = new Scanner(Pangrams.class.getClassLoader().getResourceAsStream(
+        Scanner in = new Scanner(Anagram.class.getClassLoader().getResourceAsStream(
                 "algorithm/string/anagram.txt"));
 
         int q = in.nextInt();

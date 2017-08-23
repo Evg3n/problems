@@ -1,7 +1,5 @@
 package com.hackerrank.algorithm.bitmanipulation;
 
-import com.hackerrank.algorithm.search.SherlockAndArray;
-
 import java.util.Scanner;
 
 /**
@@ -9,7 +7,7 @@ import java.util.Scanner;
  */
 public class SumVsXor {
     public static void main(String[] args) {
-        Scanner in = new Scanner(SherlockAndArray.class.getClassLoader().getResourceAsStream(
+        Scanner in = new Scanner(SumVsXor.class.getClassLoader().getResourceAsStream(
                 "algorithm/bitmanipulation/sum_vs_xor.txt"));
 
         long n = in.nextLong();
