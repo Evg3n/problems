@@ -19,7 +19,7 @@ public class LonelyInteger {
         System.out.println(result);
     }
 
-    static int lonelyInteger(int[] a) {
+    private static int lonelyInteger(int[] a) {
         int lonelyInt = a[0];
 
         for (int i = 1; i < a.length; i++) {
