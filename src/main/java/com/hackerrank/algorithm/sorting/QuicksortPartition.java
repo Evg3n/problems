@@ -1,6 +1,7 @@
 package com.hackerrank.algorithm.sorting;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -33,11 +34,9 @@ public class QuicksortPartition {
         printArray(result.toArray(new Integer[]{}));
     }
 
-    static void printArray(Integer[] ar) {
-        for (int n : ar) {
-            System.out.print(n + " ");
-        }
-        System.out.println("");
+    private static void printArray(Integer[] ar) {
+        String arrayStr = Arrays.toString(ar);
+        System.out.println(arrayStr.substring(1, arrayStr.length() - 1).replaceAll(", ", ""));
     }
 
     public static void main(String[] args) {
