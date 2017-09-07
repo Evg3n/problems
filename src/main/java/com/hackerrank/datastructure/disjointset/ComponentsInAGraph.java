@@ -15,7 +15,7 @@ public class ComponentsInAGraph {
 
         int count = in.nextInt();
 
-        FastDisjointSet set = new FastDisjointSet(2 * count + 1);
+        DisjointSet set = new DisjointSet(2 * count + 1);
         for (int i = 0; i < count; i++) {
             int v1 = in.nextInt();
             int v2 = in.nextInt();
@@ -36,10 +36,10 @@ public class ComponentsInAGraph {
         System.out.println(set.getMinSize() + " " + set.getMaxSize());
     }
 
-    private static class FastDisjointSet {
+    private static class DisjointSet {
         private int[] data;
 
-        FastDisjointSet(int size) {
+        DisjointSet(int size) {
             data = new int[size];
             Arrays.fill(data, -1);
         }
