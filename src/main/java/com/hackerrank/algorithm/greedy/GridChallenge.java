@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class GridChallenge {
     public static void main(String[] args) {
         Scanner in = new Scanner(GridChallenge.class.getClassLoader().getResourceAsStream(
-                "algorithm/greedy/grid_challenge.txt"));
+                "hackerrank/algorithm/greedy/grid_challenge.txt"));
 
         int testsCount = in.nextInt();
         for (int i = 0; i < testsCount; i++) {

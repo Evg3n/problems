@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class LonelyInteger {
     public static void main(String[] args) {
         Scanner in = new Scanner(LonelyInteger.class.getClassLoader().getResourceAsStream(
-                "algorithm/bitmanipulation/lonely_integer.txt"));
+                "hackerrank/algorithm/bitmanipulation/lonely_integer.txt"));
 
         int n = in.nextInt();
         int[] a = new int[n];

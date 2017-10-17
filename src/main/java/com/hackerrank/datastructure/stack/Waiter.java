@@ -11,7 +11,7 @@ import java.util.Stack;
 public class Waiter {
     public static void main(String[] args) {
         Scanner in = new Scanner(Waiter.class.getClassLoader()
-                .getResourceAsStream("datastructure/stack/waiter.txt"));
+                .getResourceAsStream("hackerrank/datastructure/stack/waiter.txt"));
         int n = in.nextInt();
         int q = in.nextInt();
         int[] number = new int[n];

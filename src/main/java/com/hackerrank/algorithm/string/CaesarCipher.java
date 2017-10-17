@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class CaesarCipher {
     public static void main(String[] args) {
         Scanner in = new Scanner(CaesarCipher.class.getClassLoader().getResourceAsStream(
-                "algorithm/string/caesar_cipher.txt"));
+                "hackerrank/algorithm/string/caesar_cipher.txt"));
         int length = in.nextInt();
         String source = in.next();
         int rotation = in.nextInt();

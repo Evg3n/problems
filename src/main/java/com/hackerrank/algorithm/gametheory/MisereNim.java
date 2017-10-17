@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class MisereNim {
     public static void main(String[] args) {
         Scanner in = new Scanner(MisereNim.class.getClassLoader().getResourceAsStream(
-                "algorithm/gametheory/misere_nim.txt"));
+                "hackerrank/algorithm/gametheory/misere_nim.txt"));
 
         int gamesCount = in.nextInt();
         for (int i = 0; i < gamesCount; i++) {

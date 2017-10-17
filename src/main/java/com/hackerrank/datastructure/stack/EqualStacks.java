@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class EqualStacks {
     public static void main(String[] args) {
         Scanner in = new Scanner(EqualStacks.class.getClassLoader()
-                .getResourceAsStream("datastructure/stack/equal_stacks.txt"));
+                .getResourceAsStream("hackerrank/datastructure/stack/equal_stacks.txt"));
         int n1 = in.nextInt();
         int n2 = in.nextInt();
         int n3 = in.nextInt();

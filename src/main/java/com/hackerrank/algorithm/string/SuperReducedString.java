@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class SuperReducedString {
     public static void main(String[] args) {
         Scanner in = new Scanner(SuperReducedString.class.getClassLoader().getResourceAsStream(
-                "algorithm/string/super_reduced_string.txt"));
+                "hackerrank/algorithm/string/super_reduced_string.txt"));
 
         String source = in.nextLine();
 

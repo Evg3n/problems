@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Array2D {
     public static void main(String[] args) {
         Scanner in = new Scanner(Array2D.class.getClassLoader()
-                .getResourceAsStream("datastructure/array/array_2d.txt"));
+                .getResourceAsStream("hackerrank/datastructure/array/array_2d.txt"));
         int arr[][] = new int[6][6];
         for (int arr_i = 0; arr_i < 6; arr_i++) {
             for (int arr_j = 0; arr_j < 6; arr_j++) {

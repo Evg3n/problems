@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Gemstones {
     public static void main(String[] args) {
         Scanner in = new Scanner(Gemstones.class.getClassLoader().getResourceAsStream(
-                "algorithm/string/gemstones.txt"));
+                "hackerrank/algorithm/string/gemstones.txt"));
 
         int n = in.nextInt();
         String[] arr = new String[n];

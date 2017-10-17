@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class FindTheMedian {
     public static void main(String[] args) {
         Scanner in = new Scanner(FindTheMedian.class.getClassLoader().getResourceAsStream(
-                "algorithm/sorting/find_the_median.txt"));
+                "hackerrank/algorithm/sorting/find_the_median.txt"));
 
         int n = in.nextInt();
         ArrayList<Integer> a = new ArrayList<>();

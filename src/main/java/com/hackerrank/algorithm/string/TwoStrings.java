@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class TwoStrings {
     public static void main(String[] args) {
         Scanner in = new Scanner(TwoStrings.class.getClassLoader().getResourceAsStream(
-                "algorithm/string/two_strings.txt"));
+                "hackerrank/algorithm/string/two_strings.txt"));
 
         int q = in.nextInt();
         for (int a0 = 0; a0 < q; a0++) {

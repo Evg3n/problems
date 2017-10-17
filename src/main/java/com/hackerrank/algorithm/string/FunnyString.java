@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class FunnyString {
     public static void main(String[] args) {
         Scanner in = new Scanner(FunnyString.class.getClassLoader().getResourceAsStream(
-                "algorithm/string/funny_string.txt"));
+                "hackerrank/algorithm/string/funny_string.txt"));
 
         int stringsCount = in.nextInt();
         in.nextLine();

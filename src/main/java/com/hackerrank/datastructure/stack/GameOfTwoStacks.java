@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class GameOfTwoStacks {
     public static void main(String[] args) {
         Scanner in = new Scanner(GameOfTwoStacks.class.getClassLoader()
-                .getResourceAsStream("datastructure/stack/game_of_two_stacks.txt"));
+                .getResourceAsStream("hackerrank/datastructure/stack/game_of_two_stacks.txt"));
         int g = in.nextInt();
         for (int a0 = 0; a0 < g; a0++) {
             int n = in.nextInt();

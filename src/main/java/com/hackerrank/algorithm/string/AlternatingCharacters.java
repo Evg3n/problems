@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class AlternatingCharacters {
     public static void main(String[] args) {
         Scanner in = new Scanner(AlternatingCharacters.class.getClassLoader().getResourceAsStream(
-                "algorithm/string/alternating_characters.txt"));
+                "hackerrank/algorithm/string/alternating_characters.txt"));
 
         int q = in.nextInt();
         for (int a0 = 0; a0 < q; a0++) {

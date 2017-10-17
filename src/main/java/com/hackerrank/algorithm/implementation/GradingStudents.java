@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class GradingStudents {
     public static void main(String[] args) {
         Scanner in = new Scanner(GradingStudents.class.getClassLoader().getResourceAsStream(
-                "algorithm/implementation/grading_students.txt"));
+                "hackerrank/algorithm/implementation/grading_students.txt"));
         int gradesCount = in.nextInt();
 
         for (int i = 0; i < gradesCount; i++) {

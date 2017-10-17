@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class CorrectnessAndTheLoopInvariant {
     public static void main(String[] args) {
         Scanner in = new Scanner(CorrectnessAndTheLoopInvariant.class.getClassLoader()
-                .getResourceAsStream("algorithm/sorting/correctness_and_the_loop_invariant.txt"));
+                .getResourceAsStream("hackerrank/algorithm/sorting/correctness_and_the_loop_invariant.txt"));
         int n = in.nextInt();
         int[] ar = new int[n];
         for (int i = 0; i < n; i++) {

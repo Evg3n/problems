@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Pangrams {
     public static void main(String[] args) {
         Scanner in = new Scanner(Pangrams.class.getClassLoader().getResourceAsStream(
-                "algorithm/string/pangrams.txt"));
+                "hackerrank/algorithm/string/pangrams.txt"));
 
         System.out.println(isPangram(in.nextLine()) ? "pangram" : "not pangram");
     }

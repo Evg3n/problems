@@ -8,7 +8,7 @@ import java.util.*;
 public class TwoCharacters {
     public static void main(String[] args) {
         Scanner in = new Scanner(TwoCharacters.class.getClassLoader().getResourceAsStream(
-                "algorithm/string/two_characters.txt"));
+                "hackerrank/algorithm/string/two_characters.txt"));
 
         int length = in.nextInt();
         in.nextLine();

@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class MakingAnagrams {
     public static void main(String[] args) {
         Scanner in = new Scanner(MakingAnagrams.class.getClassLoader().getResourceAsStream(
-                "algorithm/string/making_anagrams.txt"));
+                "hackerrank/algorithm/string/making_anagrams.txt"));
         String s1 = in.next();
         String s2 = in.next();
         int result = makingAnagrams(s1, s2);

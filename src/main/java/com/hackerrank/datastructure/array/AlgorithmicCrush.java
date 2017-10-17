@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 public class AlgorithmicCrush {
     public static void main(String[] args) {
         Scanner in = new Scanner(AlgorithmicCrush.class.getClassLoader()
-                .getResourceAsStream("datastructure/array/algorithmic_crush.txt"));
+                .getResourceAsStream("hackerrank/datastructure/array/algorithmic_crush.txt"));
         int inputSize = in.nextInt();
         int querySize = in.nextInt();
         in.nextLine();

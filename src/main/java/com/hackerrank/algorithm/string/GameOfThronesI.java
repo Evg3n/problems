@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class GameOfThronesI {
     public static void main(String[] args) {
         Scanner in = new Scanner(GameOfThronesI.class.getClassLoader().getResourceAsStream(
-                "algorithm/string/game_of_thrones_i.txt"));
+                "hackerrank/algorithm/string/game_of_thrones_i.txt"));
 
         String s = in.next();
         String result = gameOfThrones(s);

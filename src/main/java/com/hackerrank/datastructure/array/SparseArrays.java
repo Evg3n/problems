@@ -8,7 +8,7 @@ import java.util.*;
 public class SparseArrays {
     public static void main(String[] args) {
         Scanner in = new Scanner(SparseArrays.class.getClassLoader()
-                .getResourceAsStream("datastructure/array/sparse_arrays.txt"));
+                .getResourceAsStream("hackerrank/datastructure/array/sparse_arrays.txt"));
         int inputSize = in.nextInt();
         in.nextLine();
 

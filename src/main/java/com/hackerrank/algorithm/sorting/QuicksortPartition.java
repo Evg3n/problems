@@ -41,7 +41,7 @@ public class QuicksortPartition {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(QuicksortPartition.class.getClassLoader().getResourceAsStream(
-                "algorithm/sorting/quicksort_partition.txt"));
+                "hackerrank/algorithm/sorting/quicksort_partition.txt"));
         int n = in.nextInt();
         int[] ar = new int[n];
         for (int i = 0; i < n; i++) {

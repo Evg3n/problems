@@ -11,7 +11,7 @@ public class QueueUsingTwoStacks {
         TwoStacksQueue<Integer> queue = new TwoStacksQueue<>();
 
         Scanner scan = new Scanner(QueueUsingTwoStacks.class.getClassLoader()
-                .getResourceAsStream("datastructure/queue/queue_using_two_stacks.txt"));
+                .getResourceAsStream("hackerrank/datastructure/queue/queue_using_two_stacks.txt"));
         int n = scan.nextInt();
 
         for (int i = 0; i < n; i++) {

@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class FlippingBits {
     public static void main(String[] args) {
         Scanner in = new Scanner(FlippingBits.class.getClassLoader().getResourceAsStream(
-                "algorithm/bitmanipulation/flipping_bits.txt"));
+                "hackerrank/algorithm/bitmanipulation/flipping_bits.txt"));
 
         int count = in.nextInt();
         long mask = 0xffffffffL;

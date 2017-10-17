@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 public class DynamicArray {
     public static void main(String[] args) {
         Scanner in = new Scanner(DynamicArray.class.getClassLoader()
-                .getResourceAsStream("datastructure/array/dynamic_array.txt"));
+                .getResourceAsStream("hackerrank/datastructure/array/dynamic_array.txt"));
         int seqSize = in.nextInt();
         int queriesCount = in.nextInt();
         in.nextLine();

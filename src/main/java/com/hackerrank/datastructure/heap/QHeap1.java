@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 public class QHeap1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(QHeap1.class.getClassLoader().getResourceAsStream(
-                "datastructure/heap/q_heap_1.txt"));
+                "hackerrank/datastructure/heap/q_heap_1.txt"));
 
         int commandsCount = in.nextInt();
         in.nextLine();

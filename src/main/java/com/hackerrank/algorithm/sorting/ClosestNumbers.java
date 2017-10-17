@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class ClosestNumbers {
     public static void main(String[] args) {
         Scanner in = new Scanner(ClosestNumbers.class.getClassLoader().getResourceAsStream(
-                "algorithm/sorting/closest_numbers.txt"));
+                "hackerrank/algorithm/sorting/closest_numbers.txt"));
 
         int n = in.nextInt();
         int[] arr = new int[n];

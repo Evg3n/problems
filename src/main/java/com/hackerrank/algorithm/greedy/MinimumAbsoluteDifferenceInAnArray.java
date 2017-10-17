@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class MinimumAbsoluteDifferenceInAnArray {
     public static void main(String[] args) {
         Scanner in = new Scanner(MinimumAbsoluteDifferenceInAnArray.class.getClassLoader().getResourceAsStream(
-                "algorithm/greedy/minimum_absolute_differenceIn_an_array.txt"));
+                "hackerrank/algorithm/greedy/minimum_absolute_differenceIn_an_array.txt"));
 
         int n = in.nextInt();
         int[] arr = new int[n];

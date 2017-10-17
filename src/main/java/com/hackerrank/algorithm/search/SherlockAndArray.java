@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class SherlockAndArray {
     public static void main(String[] args) {
         Scanner in = new Scanner(SherlockAndArray.class.getClassLoader().getResourceAsStream(
-                "algorithm/search/sherlock_and_array.txt"));
+                "hackerrank/algorithm/search/sherlock_and_array.txt"));
 
         int T = in.nextInt();
         for (int a0 = 0; a0 < T; a0++) {

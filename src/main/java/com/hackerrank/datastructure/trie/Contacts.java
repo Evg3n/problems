@@ -17,7 +17,7 @@ public class Contacts {
 
     public static void main(String[] args) throws IOException {
         Scanner in = new Scanner(Contacts.class.getClassLoader().getResourceAsStream(
-                "datastructure/trie/contacts.txt"));
+                "hackerrank/datastructure/trie/contacts.txt"));
         int n = in.nextInt();
 
         Trie trie = new Trie();

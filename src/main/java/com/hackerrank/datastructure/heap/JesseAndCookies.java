@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 public class JesseAndCookies {
     public static void main(String[] args) {
         Scanner in = new Scanner(JesseAndCookies.class.getClassLoader().getResourceAsStream(
-                "datastructure/heap/jesse_and_cookies.txt"));
+                "hackerrank/datastructure/heap/jesse_and_cookies.txt"));
 
         int cookiesCount = in.nextInt();
         int sweetness = in.nextInt();

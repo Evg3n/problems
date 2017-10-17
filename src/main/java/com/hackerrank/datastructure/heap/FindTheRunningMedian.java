@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class FindTheRunningMedian {
     public static void main(String[] args) {
         Scanner in = new Scanner(FindTheRunningMedian.class.getClassLoader().getResourceAsStream(
-                "datastructure/heap/find_the_running_median.txt"));
+                "hackerrank/datastructure/heap/find_the_running_median.txt"));
 
         int n = in.nextInt();
         ArrayList<Integer> a = new ArrayList<>();

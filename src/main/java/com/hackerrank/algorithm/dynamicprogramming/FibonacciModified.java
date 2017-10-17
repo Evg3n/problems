@@ -25,7 +25,7 @@ public class FibonacciModified {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(FibonacciModified.class.getClassLoader().getResourceAsStream(
-                "algorithm/dynamicprogramming/fibonacci_modified.txt"));
+                "hackerrank/algorithm/dynamicprogramming/fibonacci_modified.txt"));
 
         int t1 = in.nextInt();
         int t2 = in.nextInt();

@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class IntroductionToNimGame {
     public static void main(String[] args) {
         Scanner in = new Scanner(IntroductionToNimGame.class.getClassLoader().getResourceAsStream(
-                "algorithm/gametheory/introduction_to_nim_game.txt"));
+                "hackerrank/algorithm/gametheory/introduction_to_nim_game.txt"));
 
         int gamesCount = in.nextInt();
         for (int i = 0; i < gamesCount; i++) {

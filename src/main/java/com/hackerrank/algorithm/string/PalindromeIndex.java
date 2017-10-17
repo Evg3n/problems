@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class PalindromeIndex {
     public static void main(String[] args) {
         Scanner in = new Scanner(PalindromeIndex.class.getClassLoader().getResourceAsStream(
-                "algorithm/string/palindrome _index.txt"));
+                "hackerrank/algorithm/string/palindrome _index.txt"));
 
         int count = in.nextInt();
 

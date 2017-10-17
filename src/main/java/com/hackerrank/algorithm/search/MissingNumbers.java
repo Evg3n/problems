@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class MissingNumbers {
     public static void main(String[] args) {
         Scanner in = new Scanner(MissingNumbers.class.getClassLoader().getResourceAsStream(
-                "algorithm/search/missing_numbers.txt"));
+                "hackerrank/algorithm/search/missing_numbers.txt"));
 
         int n = in.nextInt();
         int[] a = new int[n];

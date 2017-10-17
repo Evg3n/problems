@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class MarsExploration {
     public static void main(String[] args) {
         Scanner in = new Scanner(MarsExploration.class.getClassLoader().getResourceAsStream(
-                "algorithm/string/mars_exploration.txt"));
+                "hackerrank/algorithm/string/mars_exploration.txt"));
 
         String source = in.next();
         System.out.println(countMistakes(source));

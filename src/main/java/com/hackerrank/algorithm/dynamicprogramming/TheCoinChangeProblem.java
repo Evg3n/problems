@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class TheCoinChangeProblem {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner in = new Scanner(TheCoinChangeProblem.class.getClassLoader().getResourceAsStream(
-                "algorithm/dynamicprogramming/the_coin_change_problem.txt"));
+                "hackerrank/algorithm/dynamicprogramming/the_coin_change_problem.txt"));
 
         int n = in.nextInt();
         int m = in.nextInt();

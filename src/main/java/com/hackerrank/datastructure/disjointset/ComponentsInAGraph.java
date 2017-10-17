@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class ComponentsInAGraph {
     public static void main(String[] args) {
         Scanner in = new Scanner(CountingSort1.class.getClassLoader().getResourceAsStream(
-                "datastructure/disjointset/components_in_a_graph.txt"));
+                "hackerrank/datastructure/disjointset/components_in_a_graph.txt"));
 
         int count = in.nextInt();
 

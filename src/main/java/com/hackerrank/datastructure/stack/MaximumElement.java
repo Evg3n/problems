@@ -11,7 +11,7 @@ public class MaximumElement {
         MaxStack stack = new MaxStack();
 
         Scanner in = new Scanner(MaximumElement.class.getClassLoader()
-                .getResourceAsStream("datastructure/stack/maximum_element.txt"));
+                .getResourceAsStream("hackerrank/datastructure/stack/maximum_element.txt"));
         int commandsCount = in.nextInt();
         in.nextLine();
 

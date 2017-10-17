@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class HeapSort {
     public static void main(String[] args) {
         Scanner in = new Scanner(HeapSort.class.getClassLoader().getResourceAsStream(
-                "algorithm/sorting/heap_sort.txt"));
+                "hackerrank/algorithm/sorting/heap_sort.txt"));
 
         int n = in.nextInt();
 

@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class InsertionSortPart1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(InsertionSortPart1.class.getClassLoader().getResourceAsStream(
-                "algorithm/sorting/insertion_sort_part_1.txt"));
+                "hackerrank/algorithm/sorting/insertion_sort_part_1.txt"));
         int s = in.nextInt();
         int[] ar = new int[s];
         for (int i = 0; i < s; i++) {

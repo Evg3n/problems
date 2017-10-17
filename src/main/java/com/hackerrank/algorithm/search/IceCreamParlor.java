@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class IceCreamParlor {
     public static void main(String[] args) {
         Scanner in = new Scanner(IceCreamParlor.class.getClassLoader().getResourceAsStream(
-                "algorithm/search/ice_cream_parlor.txt"));
+                "hackerrank/algorithm/search/ice_cream_parlor.txt"));
 
         int t = in.nextInt();
         for (int a0 = 0; a0 < t; a0++) {

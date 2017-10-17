@@ -9,7 +9,7 @@ import java.util.Stack;
 public class SimpleTextEditor {
     public static void main(String[] args) {
         Scanner in = new Scanner(SimpleTextEditor.class.getClassLoader()
-                .getResourceAsStream("datastructure/stack/simple_text_editor.txt"));
+                .getResourceAsStream("hackerrank/datastructure/stack/simple_text_editor.txt"));
 
         int commandsCount = in.nextInt();
         in.nextLine();

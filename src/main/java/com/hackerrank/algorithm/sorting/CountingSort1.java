@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class CountingSort1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(CountingSort1.class.getClassLoader().getResourceAsStream(
-                "algorithm/sorting/counting_sort_1.txt"));
+                "hackerrank/algorithm/sorting/counting_sort_1.txt"));
 
         int n = in.nextInt();
         int[] unsorted = new int[n];

@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 public class LeftRotation {
     public static void main(String[] args) {
         Scanner in = new Scanner(LeftRotation.class.getClassLoader()
-                .getResourceAsStream("datastructure/array/left_rotation.txt"));
+                .getResourceAsStream("hackerrank/datastructure/array/left_rotation.txt"));
         int arraySize = in.nextInt();
         int rotationCount = in.nextInt();
         in.nextLine();

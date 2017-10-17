@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class DownToZeroII {
     public static void main(String[] args) {
         Scanner in = new Scanner(DownToZeroII.class.getClassLoader()
-                .getResourceAsStream("datastructure/queue/down_to_zero_ii.txt"));
+                .getResourceAsStream("hackerrank/datastructure/queue/down_to_zero_ii.txt"));
         int q = in.nextInt();
         for (int a0 = 0; a0 < q; a0++) {
             int n = in.nextInt();

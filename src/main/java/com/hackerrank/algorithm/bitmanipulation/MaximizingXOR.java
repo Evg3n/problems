@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class MaximizingXOR {
     public static void main(String[] args) {
         Scanner in = new Scanner(MaximizingXOR.class.getClassLoader().getResourceAsStream(
-                "algorithm/bitmanipulation/maximizing_xor.txt"));
+                "hackerrank/algorithm/bitmanipulation/maximizing_xor.txt"));
 
         int l = in.nextInt();
         int r = in.nextInt();

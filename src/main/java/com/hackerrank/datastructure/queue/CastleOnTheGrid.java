@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class CastleOnTheGrid {
     public static void main(String[] args) {
         Scanner in = new Scanner(CastleOnTheGrid.class.getClassLoader()
-                .getResourceAsStream("datastructure/queue/castle_on_the_grid.txt"));
+                .getResourceAsStream("hackerrank/datastructure/queue/castle_on_the_grid.txt"));
         int n = in.nextInt();
         String[] grid = new String[n];
         for (int grid_i = 0; grid_i < n; grid_i++) {

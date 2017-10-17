@@ -10,7 +10,7 @@ import java.util.Set;
 public class WeightedUniformStrings {
     public static void main(String[] args) {
         Scanner in = new Scanner(WeightedUniformStrings.class.getClassLoader().getResourceAsStream(
-                "algorithm/string/weighted_uniform_strings.txt"));
+                "hackerrank/algorithm/string/weighted_uniform_strings.txt"));
 
         String source = in.nextLine();
         Set<Integer> weights = buildWeights(source);

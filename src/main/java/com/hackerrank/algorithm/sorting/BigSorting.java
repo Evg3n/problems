@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class BigSorting {
     public static void main(String[] args) {
         Scanner in = new Scanner(BigSorting.class.getClassLoader().getResourceAsStream(
-                "algorithm/sorting/big_sorting.txt"));
+                "hackerrank/algorithm/sorting/big_sorting.txt"));
 
         int n = in.nextInt();
         String[] unsorted = new String[n];

@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class RunningTimeOfAlgorithms {
     public static void main(String[] args) {
         Scanner in = new Scanner(RunningTimeOfAlgorithms.class.getClassLoader().getResourceAsStream(
-                "algorithm/sorting/running_time_of_algorithms.txt"));
+                "hackerrank/algorithm/sorting/running_time_of_algorithms.txt"));
         int s = in.nextInt();
         int[] ar = new int[s];
         for (int i = 0; i < s; i++) {

@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class HackerRankInAString {
     public static void main(String[] args) {
         Scanner in = new Scanner(HackerRankInAString.class.getClassLoader().getResourceAsStream(
-                "algorithm/string/hacker_rank_in_a_string.txt"));
+                "hackerrank/algorithm/string/hacker_rank_in_a_string.txt"));
 
         int stringsCount = in.nextInt();
 

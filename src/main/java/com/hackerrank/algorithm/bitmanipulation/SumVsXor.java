@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class SumVsXor {
     public static void main(String[] args) {
         Scanner in = new Scanner(SumVsXor.class.getClassLoader().getResourceAsStream(
-                "algorithm/bitmanipulation/sum_vs_xor.txt"));
+                "hackerrank/algorithm/bitmanipulation/sum_vs_xor.txt"));
 
         long n = in.nextLong();
         long result = solve(n);

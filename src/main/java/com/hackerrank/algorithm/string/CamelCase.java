@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class CamelCase {
     public static void main(String[] args) {
         Scanner in = new Scanner(CamelCase.class.getClassLoader().getResourceAsStream(
-                "algorithm/string/camel_case.txt"));
+                "hackerrank/algorithm/string/camel_case.txt"));
 
         String source = in.nextLine();
         int count = 1;

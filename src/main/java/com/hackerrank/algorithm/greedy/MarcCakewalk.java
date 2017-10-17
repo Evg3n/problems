@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class MarcCakewalk {
     public static void main(String[] args) {
         Scanner in = new Scanner(MarcCakewalk.class.getClassLoader().getResourceAsStream(
-                "algorithm/greedy/marc_cakewalk.txt"));
+                "hackerrank/algorithm/greedy/marc_cakewalk.txt"));
         int n = in.nextInt();
         int[] calories = new int[n];
         for (int calories_i = 0; calories_i < n; calories_i++) {
