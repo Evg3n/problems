@@ -1,6 +1,7 @@
 group 'org.evg3n'
 
 apply plugin: 'java'
+apply plugin: 'scala'
 
 repositories {
     mavenCentral()
@@ -12,5 +13,10 @@ compileJava {
 }
 
 dependencies {
+    compile 'org.scala-lang:scala-library:2.11.8'
+    compile 'org.javatuples:javatuples:1.2'
+
     testCompile 'junit:junit:4.12'
+    testCompile 'org.jbehave:jbehave-core:4.3.5'
+    implementation 'org.jetbrains:annotations:15.0'
 }
