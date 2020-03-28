@@ -28,7 +28,9 @@ public class Graph {
     boolean[] visited = new boolean[n];
 
     for (int i = 0; i < n; i++) {
-      if (!visited[i]) bridgesDfs(i, -1, ids, low, visited, bridges);
+      if (!visited[i]) {
+        bridgesDfs(i, -1, ids, low, visited, bridges);
+      }
     }
 
     return bridges;
@@ -69,7 +71,9 @@ public class Graph {
     Arrays.fill(ids, UNVISITED);
 
     for (int i = 0; i < ids.length; i++) {
-      if (ids[i] == UNVISITED) sccDfs(i, ids, low, onStack, stack);
+      if (ids[i] == UNVISITED) {
+        sccDfs(i, ids, low, onStack, stack);
+      }
     }
 
     return sccCount;
@@ -92,7 +96,9 @@ public class Graph {
     ids[at] = low[at] = time;
 
     for (Integer to : g.get(at)) {
-      if (to == parent) continue;
+      if (to == parent) {
+        continue;
+      }
 
       if (!visited[to]) {
         bridgesDfs(to, at, ids, low, visited, bridges);
@@ -115,13 +121,17 @@ public class Graph {
     boolean[] visited,
     Set<Integer> articulationPoints
   ) {
-    if (parent == root) outEdgeCount++;
+    if (parent == root) {
+      outEdgeCount++;
+    }
     visited[at] = true;
     time += 1;
     ids[at] = low[at] = time;
 
     for (Integer to : g.get(at)) {
-      if (to == parent) continue;
+      if (to == parent) {
+        continue;
+      }
 
       if (!visited[to]) {
         articulationPointsDfs(to, to, at, ids, low, visited, articulationPoints);
@@ -151,8 +161,12 @@ public class Graph {
     ids[at] = low[at] = time;
 
     for (Integer to : g.get(at)) {
-      if (ids[to] == UNVISITED) sccDfs(to, ids, low, onStack, stack);
-      if (onStack[to]) low[at] = Math.min(low[at], low[to]);
+      if (ids[to] == UNVISITED) {
+        sccDfs(to, ids, low, onStack, stack);
+      }
+      if (onStack[to]) {
+        low[at] = Math.min(low[at], low[to]);
+      }
     }
 
     if (ids[at] == low[at]) {
@@ -160,7 +174,9 @@ public class Graph {
         Integer node = stack.pop();
         onStack[node] = false;
 //        low[node] = ids[at];
-        if (node == at) break;
+        if (node == at) {
+          break;
+        }
       }
       sccCount++;
     }
