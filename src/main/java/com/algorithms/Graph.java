@@ -66,7 +66,7 @@ public class Graph {
     boolean[] onStack = new boolean[n];
     Stack<Integer> stack = new Stack<>();
 
-    for (int i = 0; i < ids.length; i++) ids[i] = UNVISITED;
+    Arrays.fill(ids, UNVISITED);
 
     for (int i = 0; i < ids.length; i++) {
       if (ids[i] == UNVISITED) sccDfs(i, ids, low, onStack, stack);
