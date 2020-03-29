@@ -36,7 +36,7 @@ public class WeightedGraph {
 
       distance[at] = Math.min(distance[at], weight);
 
-      for (Pair<Integer, Integer> toPair : g.get(atPair.getValue0())) {
+      for (Pair<Integer, Integer> toPair : g.get(at)) {
         nextUp.add(Pair.with(toPair.getValue0(), toPair.getValue1() + distance[at]));
       }
 
