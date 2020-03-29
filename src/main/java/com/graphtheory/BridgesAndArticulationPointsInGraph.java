@@ -1,11 +1,14 @@
-package com.algorithms;
+package com.graphtheory;
 
+import com.graphtheory.graph.Graph;
 import org.javatuples.Pair;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import static java.lang.System.out;
 
 
 public class BridgesAndArticulationPointsInGraph {
@@ -25,6 +28,7 @@ public class BridgesAndArticulationPointsInGraph {
     List<Pair<Integer, Integer>> bridges = new Graph(n, g).bridges();
     List<Integer> articulationPoints = new Graph(n, g).articulationPoints();
 
-    System.out.println("Done!");
+    out.println("Bridges: " + Arrays.toString(bridges.toArray()));
+    out.println("Articulation Points: " + Arrays.toString(articulationPoints.toArray()));
   }
 }

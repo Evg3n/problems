@@ -1,9 +1,13 @@
-package com.algorithms;
+package com.graphtheory;
+
+import com.graphtheory.graph.Graph;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import static java.lang.System.out;
 
 public class StronglyConnectedComponents {
   public static void main(String[] args) {
@@ -20,6 +24,6 @@ public class StronglyConnectedComponents {
 
     Integer sccCount = new Graph(n, g).sccCount();
 
-    System.out.println("Done!");
+    out.println("SCC Count: " + sccCount);
   }
 }

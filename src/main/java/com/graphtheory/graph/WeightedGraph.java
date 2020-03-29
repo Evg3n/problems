@@ -1,4 +1,4 @@
-package com.algorithms;
+package com.graphtheory.graph;
 
 import org.javatuples.Pair;
 

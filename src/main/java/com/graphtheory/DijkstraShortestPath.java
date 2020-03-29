@@ -1,5 +1,6 @@
-package com.algorithms;
+package com.graphtheory;
 
+import com.graphtheory.graph.WeightedGraph;
 import org.javatuples.Pair;
 
 import java.util.Arrays;
@@ -20,6 +21,6 @@ public class DijkstraShortestPath {
 
     int pathLength = new WeightedGraph(5, g).dijkstra(0, 4);
 
-    out.println(pathLength);
+    out.println("Shortest Path Length: " + pathLength);
   }
 }
