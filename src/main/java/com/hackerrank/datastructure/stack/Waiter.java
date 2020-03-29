@@ -75,6 +75,6 @@ public class Waiter {
       }
       i++;
     }
-    return primes.toArray(new Integer[primes.size()]);
+    return primes.toArray(new Integer[0]);
   }
 }

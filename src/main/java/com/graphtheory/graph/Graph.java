@@ -18,6 +18,62 @@ public class Graph {
     init();
   }
 
+  public List<Integer> dfs(int start) {
+    List<Integer> result = new ArrayList<>();
+
+    if (start < 0 || start >= n) {
+      return result;
+    }
+
+    boolean[] visited = new boolean[n];
+    dfsHelper(start, visited, result);
+
+    return result;
+  }
+
+  private void dfsHelper(int at, boolean[] visited, List<Integer> result) {
+    if (visited[at]) {
+      return;
+    }
+
+    visited[at] = true;
+    result.add(at);
+    for (Integer to : g.get(at)) {
+      dfsHelper(to, visited, result);
+    }
+  }
+
+  public List<Integer> bfs(int start) {
+    List<Integer> result = new ArrayList<>();
+
+    if (start < 0 || start >= n) {
+      return result;
+    }
+
+    boolean[] visited = new boolean[n];
+    Queue<Integer> next = new LinkedList<>();
+    next.add(start);
+
+    while (!next.isEmpty()) {
+      Integer at = next.poll();
+
+      if (visited[at]) {
+        continue;
+      }
+
+      visited[at] = true;
+      result.add(at);
+
+      for (Integer to : g.get(at)) {
+        if (!visited[to]) {
+          next.add(to);
+        }
+      }
+    }
+
+    return result;
+  }
+
   public List<Pair<Integer, Integer>> bridges() {
     init();
 
