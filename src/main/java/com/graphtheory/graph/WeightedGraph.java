@@ -18,7 +18,7 @@ public class WeightedGraph {
   }
 
   public int dijkstra(int start, int target) {
-    if (start < 0 || target >= n) {
+    if (start < 0 || start >= n || target < 0 || target >= n) {
       return Integer.MAX_VALUE;
     }
 
