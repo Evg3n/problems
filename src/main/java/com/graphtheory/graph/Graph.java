@@ -135,6 +135,20 @@ public class Graph {
     return sccCount;
   }
 
+  public List<Integer> topSort() {
+    boolean[] visited = new boolean[n];
+    List<Integer> order = new ArrayList<>();
+
+    for (int i = 0; i < n; i++) {
+      if (!visited[i]) {
+        topSortDfs(i, visited, order);
+        order.add(0, i);
+      }
+    }
+
+    return order;
+  }
+
   private void init() {
     time = -1;
   }
@@ -235,6 +249,16 @@ public class Graph {
         }
       }
       sccCount++;
+    }
+  }
+
+  private void topSortDfs(int at, boolean[] visited, List<Integer> order) {
+    visited[at] = true;
+    for (Integer to : g.get(at)) {
+      if (!visited[to]) {
+        topSortDfs(to, visited, order);
+        order.add(0, to);
+      }
     }
   }
 }
