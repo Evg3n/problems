@@ -13,7 +13,7 @@ compileJava {
 }
 
 dependencies {
-    compile 'org.scala-lang:scala-library:2.11.8'
+    compile 'org.scala-lang:scala-library:2.13.1'
     compile 'org.javatuples:javatuples:1.2'
 
     testCompile 'junit:junit:4.12'
